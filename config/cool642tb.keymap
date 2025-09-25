@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp TAB     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F5                                                  &kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT
-&kp MINUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON     &kp N1          &kp INT_KATAKANAHIRAGANA  &kp BACKSLASH    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp APOS
-&kp GRAVE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp B         &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL
-&kp RSHIFT  &kp KP_DOT    &kp NUMBER_0  &kp DEL       &kp LEFT_ALT  &kp LEFT_SHIFT  &trans                    &to 0                                                               &kp LEFT_SHIFT
+&kp TAB     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_ASTERISK                                            &kp MINUS        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT
+&kp MINUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp N1          &kp INT_KATAKANAHIRAGANA  &kp BACKSLASH    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp APOS
+&kp GRAVE   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE    &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL
+&kp RSHIFT  &kp KP_DOT    &kp NUMBER_0  &kp DEL       &kp LEFT_ALT     &kp LEFT_SHIFT  &trans                    &to 0                                                               &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
