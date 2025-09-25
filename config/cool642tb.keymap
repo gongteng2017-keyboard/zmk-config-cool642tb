@@ -111,10 +111,10 @@
 
         ARROW {
             bindings = <
-&kp Q       &kp W      &kp E     &kp R     &kp T                        &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &kp H        &kp J  &kp K      &kp L       &kp ENTER
-&kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
+&kp TAB          &bt BT_PRV  &bt BT_NXT              &none                    &kp LS(LG(GRAVE))                         &kp LEFT_BRACKET        &kp LANG2        &kp LANG1    &kp RIGHT_BRACKET        &kp RIGHT_GUI
+&kp LC(LS(ESC))  &none       &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none              &kp N1         &kp N2  &kp LC(LG(LEFT_ARROW))  &kp HOME         &kp END      &kp LC(LG(RIGHT_ARROW))  &kp ESCAPE
+&kp PRINTSCREEN  &none       &kp C                   &kp V                    &kp B              &bt BT_DISC 0  &kp N4  &kp LEFT_PARENTHESIS    &kp LC(LS(TAB))  &kp LC(TAB)  &kp RIGHT_PARENTHESIS    &trans
+&trans           &kp LCTRL   &trans                  &trans                   &trans             &trans         &trans  &trans                                                                         &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
