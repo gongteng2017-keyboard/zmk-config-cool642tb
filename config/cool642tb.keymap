@@ -112,7 +112,7 @@
         ARROW {
             bindings = <
 &kp TAB          &bt BT_PRV  &bt BT_NXT              &none                    &kp LS(LG(GRAVE))                         &kp LEFT_BRACKET        &kp LANG2        &kp LANG1    &kp RIGHT_BRACKET        &kp RIGHT_GUI
-&kp LC(LS(ESC))  &none       &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none              &kp N1         &kp N2  &kp LC(LG(LEFT_ARROW))  &kp HOME         &kp END      &kp LC(LG(RIGHT_ARROW))  &kp ESCAPE
+&kp LC(LS(ESC))  &none       &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none              &kp LS(N1)     &kp N2  &kp LC(LG(LEFT_ARROW))  &kp HOME         &kp END      &kp LC(LG(RIGHT_ARROW))  &kp ESCAPE
 &kp PRINTSCREEN  &none       &kp C                   &kp V                    &kp B              &bt BT_DISC 0  &kp N4  &kp LEFT_PARENTHESIS    &kp LC(LS(TAB))  &kp LC(TAB)  &kp RIGHT_PARENTHESIS    &trans
 &trans           &kp LCTRL   &trans                  &trans                   &trans             &trans         &trans  &trans                                                                         &bootloader
             >;
