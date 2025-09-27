@@ -92,7 +92,7 @@
 &kp F1    &kp F2          &kp UP_ARROW  &kp F4           &kp GRAVE                                       &kp F6         &kp F7     &kp F8     &kp F9     &kp F10
 &kp F5    &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp AT     &to 0             &kp INT_MUHENKAN   &kp PAGE_UP    &mkp LCLK  &mkp LCLK  &mkp RCLK  &kp F12
 &kp PLUS  &kp EXCL        &kp F3        &kp DOLLAR       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &mkp LCLK  &mkp LCLK  &mkp RCLK  &kp F11
-&trans    &trans          &trans        &trans           &mo 1      &mo 3             &to 2              &to 0                                           &kp LEFT_SHIFT
+&trans    &trans          &trans        &trans           &mo 1      &mo 3             &to 0              &mo 2                                           &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -114,7 +114,7 @@
 &kp TAB          &bt BT_PRV  &bt BT_NXT              &none                    &kp LS(LG(GRAVE))                         &kp LEFT_BRACKET        &kp LANG2        &kp LANG1    &kp RIGHT_BRACKET        &kp RIGHT_GUI
 &kp LC(LS(ESC))  &none       &kp LS(LG(LEFT_ARROW))  &kp LS(LG(RIGHT_ARROW))  &none              &kp LS(N1)     &kp N2  &kp LC(LG(LEFT_ARROW))  &kp HOME         &kp END      &kp LC(LG(RIGHT_ARROW))  &kp ESCAPE
 &kp PRINTSCREEN  &none       &kp C                   &kp V                    &kp B              &bt BT_DISC 0  &kp N4  &kp LEFT_PARENTHESIS    &kp LC(LS(TAB))  &kp LC(TAB)  &kp RIGHT_PARENTHESIS    &trans
-&trans           &kp LCTRL   &trans                  &trans                   &trans             &trans         &trans  &trans                                                                         &bootloader
+&trans           &kp LCTRL   &trans                  &trans                   &mo 1              &mo 3          &to 0   &mo 2                                                                          &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
