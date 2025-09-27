@@ -92,7 +92,7 @@
 &kp F1    &kp F2          &kp UP_ARROW  &kp F4           &kp GRAVE                                       &kp F6         &kp F7     &kp F8     &kp F9     &kp F10
 &kp F5    &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp AT     &to 0             &kp INT_MUHENKAN   &kp PAGE_UP    &mkp LCLK  &mkp LCLK  &mkp RCLK  &kp F12
 &kp PLUS  &kp EXCL        &kp F3        &kp DOLLAR       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &mkp LCLK  &mkp LCLK  &mkp RCLK  &kp F11
-&trans    &trans          &trans        &trans           &trans     &lt 3 SPACE       &to 2              &to 0                                           &kp LEFT_SHIFT
+&trans    &trans          &trans        &trans           &trans     &mo 3             &to 2              &to 0                                           &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
